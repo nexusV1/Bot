@@ -1,5 +1,6 @@
-const { default: makeWASocket, useMultiFileAuthState } = require("@whiskeysockets/baileys")
+const { default: makeWASocket, useMultiFileAuthState, downloadMediaMessage } = require("@whiskeysockets/baileys")
 const fs = require("fs")
+const sharp = require("sharp")
 
 // Base de datos
 let usuarios = {}
@@ -53,11 +54,23 @@ function obtenerRangoClasificacion(poder) {
   return { rango: "Eterniun", clasificacion: "S" }
 }
 
-// Rayos divinos (admin otorga manualmente con comando)
+// Rayos divinos y sistema de administración
 let rayosDivinos = {
   Omega: 70,
   Purgatorio: 20,
   Dios: 0
+}
+
+// Administrador supremo
+const ADMIN_SUPREMO = "5492915112379@s.whatsapp.net"
+
+// Base de datos de admins supremos
+let adminsSupremos = {}
+if (fs.existsSync("admins.json")) {
+  adminsSupremos = JSON.parse(fs.readFileSync("admins.json"))
+}
+function guardarAdmins() {
+  fs.writeFileSync("admins.json", JSON.stringify(adminsSupremos, null, 2))
 }
 
 // Control de reconexión para evitar múltiples sockets
@@ -78,7 +91,10 @@ async function startBot() {
   const { state, saveCreds } = await useMultiFileAuthState("auth")
   const sock = makeWASocket({ 
     auth: state,
-    printQRInTerminal: true // Activar QR code como alternativa
+    printQRInTerminal: false,
+    browser: ['Ubuntu', 'Chrome', '20.0.04'],
+    generateHighQualityLinkPreview: true,
+    markOnlineOnConnect: false
   })
   
   currentSocket = sock
@@ -94,9 +110,16 @@ async function startBot() {
     console.log("💡 Cuando te pida el código, úsalo para vincular este bot\n")
     
     try {
-      const pairingCode = await sock.requestPairingCode("542915268762")
+      // Esperar un momento para estabilizar conexión
+      await new Promise(resolve => setTimeout(resolve, 2000))
+      const pairingCode = await sock.requestPairingCode("5492915112379")
       console.log("🎯 CÓDIGO DE EMPAREJAMIENTO: " + pairingCode)
       console.log("💬 Usa este código en WhatsApp para vincular el bot a tu cuenta\n")
+      console.log("📝 PASOS:")
+      console.log("1. Abre WhatsApp en tu teléfono")
+      console.log("2. Ve a Configuración > Dispositivos vinculados")
+      console.log("3. Toca 'Vincular dispositivo'")
+      console.log("4. Ingresa el código: " + pairingCode)
     } catch (error) {
       console.log("❌ Error generando código:", error.message)
       pairingRequested = false // Permitir reintentar
@@ -142,6 +165,9 @@ async function startBot() {
                  msg.message.imageMessage?.caption ||
                  msg.message.videoMessage?.caption
     if (!body) return
+    
+    // Solo responder a comandos que empiecen con #
+    if (!body.startsWith("#")) return
 
     // Registrar usuario (por remitente, no por chat)
     if (!usuarios[senderId]) {
@@ -156,37 +182,35 @@ async function startBot() {
       guardarBD()
     }
 
+    let user = usuarios[senderId]
+
     // Asegurar compatibilidad con usuarios existentes
     if (!user.ultimoEntrenamiento) {
       user.ultimoEntrenamiento = 0
     }
 
-    let user = usuarios[senderId]
-
-    // #menu - Ultra stylish menu
+    // #menu - Menu mejorado
     if (body.startsWith("#menu") || body.startsWith("#help")) {
-      const menu = `╔══════════════════════════════╗
-║    🌟 IMPERIO TRIPLE X 🌟     ║
-║        DOMINA SIEMPRE         ║
-╚══════════════════════════════╝
+      const menu = `╔════════════════════════════╗
+║        🤖 BOT MENU 🤖       ║
+╚════════════════════════════╝
 
-⚡ ═══════ COMANDOS ÉPICOS ═══════ ⚡
-
-🎮 BÁSICOS:
-├ #menu - Mostrar este menú épico
-├ #registrar [nombre] - Cambia tu nombre
-├ #perfil - Tu perfil de guerrero
-└ #rank - Top 10 guerreros
+📋 COMANDOS BÁSICOS:
+├ #menu - Mostrar este menú
+├ #registrar [nombre] - Cambiar nombre
+├ #perfil - Ver perfil
+├ #rank - Top 10 usuarios
+├ #info - Información del grupo
 
 💪 ENTRENAMIENTO:
-├ #entrenar - Entrena tu poder (1 min cooldown)
-└ #daily - Recompensa diaria épica
+├ #entrenar - Entrenar poder (1 min cooldown)
+└ #daily - Recompensa diaria
 
 ⚔️ COMBATE:
-├ #duelo @usuario - Duelo épico
-└ #s - Crear sticker épico (responde a foto/video)
+├ #duelo @usuario - Duelo
+└ #s - Crear sticker (responder a foto)
 
-🏆 RANGOS DISPONIBLES:
+🏆 RANGOS:
 🥉 Callejero C/B/A
 🥈 Héroe C/B/A  
 🥇 Continental B/A/S
@@ -199,66 +223,82 @@ async function startBot() {
 💎 Sester B/A/S
 🌟 Eterniti S
 ⚡ Eterniun C/B/A/S
+🌪️ Rayo Divino Purgatorio
+🌊 Rayo Divino Omega
+⚡ Dios
 
-╔══════════════════════════════╗
-║     💫 CREADO POR: L 💫      ║
-║   Imperio Triple X Domina    ║
-╚══════════════════════════════╝`
+╔════════════════════════════╗
+║       Creado por: L        ║
+╚════════════════════════════╝`
 
       await sock.sendMessage(chatId, { text: menu })
     }
 
-    // #registrar - Custom name registration
+    // #registrar - Cambiar nombre
     if (body.startsWith("#registrar ")) {
       const nombreNuevo = body.split(" ").slice(1).join(" ").trim()
       if (!nombreNuevo || nombreNuevo.length < 2) {
-        await sock.sendMessage(chatId, { text: "❌ ¡Usa un nombre válido!\n💡 Ejemplo: #registrar Mi Nombre Épico" })
+        await sock.sendMessage(chatId, { text: "❌ Usa un nombre válido\n💡 Ejemplo: #registrar Mi Nombre" })
         return
       }
       
       if (nombreNuevo.length > 25) {
-        await sock.sendMessage(chatId, { text: "❌ ¡Nombre muy largo! Máximo 25 caracteres." })
+        await sock.sendMessage(chatId, { text: "❌ Nombre muy largo. Máximo 25 caracteres." })
         return
       }
 
       user.nombre = nombreNuevo
       guardarBD()
-      await sock.sendMessage(chatId, { text: `🎉 ¡ÉPICO! Tu nuevo nombre es: *${nombreNuevo}*\n⚡ ¡Ahora eres más poderoso que nunca!` })
+      await sock.sendMessage(chatId, { text: `✅ Tu nuevo nombre es: *${nombreNuevo}*` })
     }
 
-    // #s - Sticker creation
+    // #s - Crear sticker
     if (body.startsWith("#s")) {
       const quotedMsg = msg.message?.extendedTextMessage?.contextInfo?.quotedMessage
       
       if (!quotedMsg) {
-        await sock.sendMessage(chatId, { text: "❌ ¡Responde a una foto o video con #s!\n🎨 ¡Crea tu sticker épico del Imperio!" })
+        await sock.sendMessage(chatId, { text: "❌ Responde a una foto con #s\n🎨 Para crear un sticker" })
         return
       }
 
-      const imageMsg = quotedMsg.imageMessage || quotedMsg.videoMessage
+      const imageMsg = quotedMsg.imageMessage
       if (!imageMsg) {
-        await sock.sendMessage(chatId, { text: "❌ ¡Solo puedo crear stickers de fotos o videos!\n🖼️ Responde a una imagen con #s" })
+        await sock.sendMessage(chatId, { text: "❌ Solo puedo crear stickers de fotos\n🖼️ Responde a una imagen con #s" })
         return
       }
 
       try {
-        // Download the media
-        const mediaKey = quotedMsg.imageMessage || quotedMsg.videoMessage
-        const stickerName = `${user.nombre} - Imperio Triple X Domina Neko Caerá`
+        // Construir mensaje completo para descargar
+        const quotedMsgFull = {
+          key: {
+            remoteJid: chatId,
+            id: msg.message.extendedTextMessage.contextInfo.stanzaId,
+            participant: msg.message.extendedTextMessage.contextInfo.participant
+          },
+          message: quotedMsg
+        }
+        
+        // Descargar el contenido
+        const buffer = await downloadMediaMessage(quotedMsgFull, 'buffer', {})
+        
+        // Convertir imagen a webp para sticker válido
+        const stickerBuffer = await sharp(buffer)
+          .resize(512, 512, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
+          .webp()
+          .toBuffer()
         
         await sock.sendMessage(chatId, {
-          sticker: { url: imageMsg.url },
-          packName: "Imperio Triple X",
-          authorName: stickerName
+          sticker: stickerBuffer
         })
         
-        await sock.sendMessage(chatId, { text: "🎨 ¡STICKER ÉPICO CREADO!\n👑 Imperio Triple X Domina Siempre" })
+        await sock.sendMessage(chatId, { text: "✅ Sticker creado correctamente" })
       } catch (error) {
-        await sock.sendMessage(chatId, { text: "❌ Error creando el sticker\n🔥 ¡Inténtalo de nuevo, guerrero!" })
+        console.log("Error creando sticker:", error)
+        await sock.sendMessage(chatId, { text: "❌ Error creando el sticker\nInténtalo de nuevo" })
       }
     }
 
-    // #entrenar - Enhanced with cooldown
+    // #entrenar - Entrenar con cooldown
     if (body.startsWith("#entrenar")) {
       const ahora = Date.now()
       const cooldown = 60000 // 1 minuto en milisegundos
@@ -267,7 +307,7 @@ async function startBot() {
       if (tiempoRestante > 0) {
         const segundos = Math.ceil(tiempoRestante / 1000)
         await sock.sendMessage(chatId, { 
-          text: `⏰ ¡Descansa, guerrero!\n🔥 Podrás entrenar en *${segundos}* segundos\n💪 ¡El poder requiere paciencia!` 
+          text: `⏰ Descansa\n🔥 Podrás entrenar en *${segundos}* segundos` 
         })
         return
       }
@@ -280,17 +320,17 @@ async function startBot() {
 
       const { rango, clasificacion } = obtenerRangoClasificacion(user.poder)
       await sock.sendMessage(chatId, { 
-        text: `⚡ ¡ENTRENAMIENTO ÉPICO COMPLETADO! ⚡\n\n🔥 +${exp} de poder ganado\n💪 Poder total: ${user.poder}\n🏆 Rango: ${rango} ${clasificacion}\n\n👑 ¡Imperio Triple X Domina!` 
+        text: `⚡ Entrenamiento completado\n\n🔥 +${exp} de poder ganado\n💪 Poder total: ${user.poder}\n🏆 Rango: ${rango} ${clasificacion}` 
       })
     }
 
-    // #daily - Enhanced daily rewards
+    // #daily - Recompensa diaria
     if (body.startsWith("#daily")) {
       let ahora = Date.now()
       if (ahora - user.ultimaDaily < 86400000) {
         const horasRestantes = Math.ceil((86400000 - (ahora - user.ultimaDaily)) / 3600000)
         await sock.sendMessage(chatId, { 
-          text: `⏳ ¡Ya reclamaste tu recompensa diaria!\n🕐 Vuelve en ${horasRestantes} horas\n💎 ¡Las mejores recompensas te esperan!` 
+          text: `⏳ Ya reclamaste tu recompensa diaria\n🕐 Vuelve en ${horasRestantes} horas` 
         })
       } else {
         let recompensa = Math.floor(Math.random() * 2000) + 1000
@@ -301,14 +341,28 @@ async function startBot() {
         
         const { rango, clasificacion } = obtenerRangoClasificacion(user.poder)
         await sock.sendMessage(chatId, { 
-          text: `🎉 ¡DAILY ÉPICO RECLAMADO! 🎉\n\n💰 +${recompensa} de poder ganado\n⚡ Poder total: ${user.poder}\n🏆 Rango: ${rango} ${clasificacion}\n\n🌟 ¡Imperio Triple X Recompensa!` 
+          text: `🎉 Daily reclamado\n\n💰 +${recompensa} de poder ganado\n⚡ Poder total: ${user.poder}\n🏆 Rango: ${rango} ${clasificacion}` 
         })
       }
     }
 
-    // #perfil - Enhanced epic profile
+    // #perfil - Ver perfil
     if (body.startsWith("#perfil")) {
+      // Verificar si es el admin supremo
+      if (senderId === ADMIN_SUPREMO) {
+        user.rayo = "Dios"
+        user.poder = Math.max(user.poder, 10000000) // Asegurar poder mínimo
+        guardarBD()
+      }
+      
       let { rango, clasificacion } = obtenerRangoClasificacion(user.poder)
+      
+      // Override para rangos especiales
+      if (senderId === ADMIN_SUPREMO) {
+        rango = "Dios"
+        clasificacion = "???"
+      }
+      
       let top = Object.values(usuarios).sort((a, b) => b.poder - a.poder)
       let posicion = top.findIndex(u => u === user) + 1
       
@@ -325,24 +379,19 @@ async function startBot() {
       else if (rango.includes("Sester")) rangoEmoji = "💎"
       else if (rango.includes("Eterniti")) rangoEmoji = "🌟"
       else if (rango.includes("Eterniun")) rangoEmoji = "⚡"
+      else if (rango.includes("Dios")) rangoEmoji = "⚡"
 
-      let perfil = `╔═══════════════════════════════╗
-║        👑 PERFIL ÉPICO 👑        ║
-║     Imperio Triple X Domina     ║
-╚═══════════════════════════════╝
+      let perfil = `╔════════════════════════════╗
+║         👤 PERFIL 👤        ║
+╚════════════════════════════╝
 
-🎭 **GUERRERO:** ${user.nombre}
-📊 **NIVEL:** ${user.nivel}
-⚡ **PODER:** ${user.poder.toLocaleString()}
-${rangoEmoji} **RANGO:** ${rango}
-🏅 **CLASIFICACIÓN:** ${clasificacion}
-🏆 **POSICIÓN GLOBAL:** #${posicion}
-⚔️ **RAYO DIVINO:** ${user.rayo || "🚫 Ninguno"}
-
-╔═══════════════════════════════╗
-║     💫 Imperio Triple X 💫     ║
-║        Domina Siempre         ║
-╚═══════════════════════════════╝`
+👤 **Usuario:** ${user.nombre}
+📊 **Nivel:** ${user.nivel}
+⚡ **Poder:** ${user.poder.toLocaleString()}
+${rangoEmoji} **Rango:** ${rango}
+🏅 **Clasificación:** ${clasificacion}
+🏆 **Posición Global:** #${posicion}
+⚔️ **Rayo Divino:** ${user.rayo || "🚫 Ninguno"}`
 
       // Try to get profile picture
       try {
@@ -357,13 +406,12 @@ ${rangoEmoji} **RANGO:** ${rango}
       }
     }
 
-    // #rank - Enhanced epic ranking
+    // #rank - Top 10 usuarios
     if (body.startsWith("#rank")) {
       let top = Object.values(usuarios).sort((a, b) => b.poder - a.poder).slice(0, 10)
-      let ranking = `╔═══════════════════════════════╗
-║      🏆 TOP 10 GUERREROS 🏆     ║
-║     Imperio Triple X Domina     ║
-╚═══════════════════════════════╝
+      let ranking = `╔════════════════════════════╗
+║        🏆 TOP 10 🏆       ║
+╚════════════════════════════╝
 
 `
       
@@ -375,15 +423,10 @@ ${rangoEmoji} **RANGO:** ${rango}
         ranking += `${medal} **${u.nombre}**\n   ⚡ ${u.poder.toLocaleString()} | 🏅 ${rango} ${clasificacion}\n\n`
       })
       
-      ranking += `╔═══════════════════════════════╗
-║     💫 Imperio Triple X 💫     ║
-║        Domina Siempre         ║
-╚═══════════════════════════════╝`
-      
       await sock.sendMessage(chatId, { text: ranking })
     }
 
-    // #duelo - Enhanced epic duel
+    // #duelo - Duelo
     if (body.startsWith("#duelo")) {
       // Buscar objetivo en mentions o parsearlo del texto
       let enemigoId = null
@@ -394,7 +437,7 @@ ${rangoEmoji} **RANGO:** ${rango}
       } else {
         let partes = body.split(" ")
         if (partes.length < 2) {
-          await sock.sendMessage(chatId, { text: "❌ Usa: #duelo @usuario (mencionando al usuario)\n⚔️ ¡Desafía a un guerrero del Imperio!" })
+          await sock.sendMessage(chatId, { text: "❌ Usa: #duelo @usuario\n⚔️ Menciona al usuario" })
           return
         }
         enemigoId = partes[1].replace("@", "") + "@s.whatsapp.net"
@@ -402,19 +445,18 @@ ${rangoEmoji} **RANGO:** ${rango}
       
       // Validaciones
       if (enemigoId === senderId) {
-        await sock.sendMessage(chatId, { text: "❌ ¡No puedes duelarte contra ti mismo!\n💪 Busca un oponente digno, guerrero" })
+        await sock.sendMessage(chatId, { text: "❌ No puedes duelarte contra ti mismo" })
         return
       }
       
       if (!usuarios[enemigoId]) {
-        await sock.sendMessage(chatId, { text: "❌ Ese usuario no existe en el Imperio\n🎮 Debe usar algún comando primero" })
+        await sock.sendMessage(chatId, { text: "❌ Ese usuario no existe\n🎮 Debe usar algún comando primero" })
         return
       }
 
       let enemigo = usuarios[enemigoId]
       
-      // Epic battle simulation
-      const battleText = `⚔️ ¡DUELO ÉPICO INICIADO! ⚔️\n\n🔥 ${user.nombre} (${user.poder.toLocaleString()}⚡)\n        VS\n🔥 ${enemigo.nombre} (${enemigo.poder.toLocaleString()}⚡)\n\n⏳ Las espadas chocan...`
+      const battleText = `⚔️ Duelo iniciado\n\n🔥 ${user.nombre} (${user.poder.toLocaleString()}⚡)\n        VS\n🔥 ${enemigo.nombre} (${enemigo.poder.toLocaleString()}⚡)\n\n⏳ Combatiendo...`
       
       await sock.sendMessage(chatId, { 
         text: battleText,
@@ -435,13 +477,130 @@ ${rangoEmoji} **RANGO:** ${rango}
         
         const { rango: rangoGanador, clasificacion: clasifGanador } = obtenerRangoClasificacion(ganador.poder)
 
-        const resultText = `🏆 ¡RESULTADO DEL DUELO ÉPICO! 🏆\n\n👑 **GANADOR:** ${ganador.nombre}\n💰 **RECOMPENSA:** +${recompensa.toLocaleString()} poder\n⚡ **PODER TOTAL:** ${ganador.poder.toLocaleString()}\n🏅 **NUEVO RANGO:** ${rangoGanador} ${clasifGanador}\n\n💔 **DERROTADO:** ${perdedor.nombre}\n\n╔═══════════════════════════════╗\n║   🌟 Imperio Triple X Domina 🌟  ║\n║        Gloria Eterna!         ║\n╚═══════════════════════════════╝`
+        const resultText = `🏆 Resultado del duelo\n\n👑 **Ganador:** ${ganador.nombre}\n💰 **Recompensa:** +${recompensa.toLocaleString()} poder\n⚡ **Poder total:** ${ganador.poder.toLocaleString()}\n🏅 **Nuevo rango:** ${rangoGanador} ${clasifGanador}\n\n💔 **Derrotado:** ${perdedor.nombre}`
 
         await sock.sendMessage(chatId, { 
           text: resultText,
           mentions: [ganadorId, perdedorId]
         })
       }, 3000)
+    }
+    // #info - Información del grupo
+    if (body.startsWith("#info")) {
+      const ahora = new Date()
+      const hora = ahora.toLocaleTimeString('es-ES')
+      const fecha = ahora.toLocaleDateString('es-ES')
+      
+      let nombreGrupo = "Chat privado"
+      let cantidadBots = 1
+      let cantidadAdmins = Object.keys(adminsSupremos).length
+      
+      // Si es un grupo, obtener información
+      if (chatId.includes("@g.us")) {
+        try {
+          const groupInfo = await sock.groupMetadata(chatId)
+          nombreGrupo = groupInfo.subject
+        } catch (error) {
+          nombreGrupo = "Grupo"
+        }
+      }
+      
+      const info = `📊 **INFORMACIÓN**\n\n🏷️ **Grupo:** ${nombreGrupo}\n🕐 **Hora:** ${hora}\n📅 **Fecha:** ${fecha}\n🤖 **Bots:** ${cantidadBots}\n👑 **Admins Supremos:** ${cantidadAdmins}`
+      
+      await sock.sendMessage(chatId, { text: info })
+    }
+    
+    // Comandos de admin supremo
+    if (senderId === ADMIN_SUPREMO) {
+      // #dar_rayo_purgatorio
+      if (body.startsWith("#dar_rayo_purgatorio")) {
+        const mentionedJid = msg.message?.extendedTextMessage?.contextInfo?.mentionedJid?.[0]
+        if (!mentionedJid) {
+          await sock.sendMessage(chatId, { text: "❌ Menciona al usuario" })
+          return
+        }
+        
+        if (!usuarios[mentionedJid]) {
+          await sock.sendMessage(chatId, { text: "❌ Usuario no encontrado" })
+          return
+        }
+        
+        usuarios[mentionedJid].rayo = "Purgatorio"
+        usuarios[mentionedJid].poder = Math.max(usuarios[mentionedJid].poder, 5000000)
+        guardarBD()
+        
+        await sock.sendMessage(chatId, { 
+          text: `🌪️ Rayo Divino Purgatorio otorgado a ${usuarios[mentionedJid].nombre}`,
+          mentions: [mentionedJid]
+        })
+      }
+      
+      // #dar_rayo_omega
+      if (body.startsWith("#dar_rayo_omega")) {
+        const mentionedJid = msg.message?.extendedTextMessage?.contextInfo?.mentionedJid?.[0]
+        if (!mentionedJid) {
+          await sock.sendMessage(chatId, { text: "❌ Menciona al usuario" })
+          return
+        }
+        
+        if (!usuarios[mentionedJid]) {
+          await sock.sendMessage(chatId, { text: "❌ Usuario no encontrado" })
+          return
+        }
+        
+        usuarios[mentionedJid].rayo = "Omega"
+        usuarios[mentionedJid].poder = Math.max(usuarios[mentionedJid].poder, 8000000)
+        guardarBD()
+        
+        await sock.sendMessage(chatId, { 
+          text: `🌊 Rayo Divino Omega otorgado a ${usuarios[mentionedJid].nombre}`,
+          mentions: [mentionedJid]
+        })
+      }
+      
+      // #dar_admin_supremo
+      if (body.startsWith("#dar_admin_supremo")) {
+        const mentionedJid = msg.message?.extendedTextMessage?.contextInfo?.mentionedJid?.[0]
+        if (!mentionedJid) {
+          await sock.sendMessage(chatId, { text: "❌ Menciona al usuario" })
+          return
+        }
+        
+        adminsSupremos[mentionedJid] = {
+          nombre: usuarios[mentionedJid]?.nombre || mentionedJid.split("@")[0],
+          otorgadoPor: "Administrador Supremo",
+          fecha: new Date().toLocaleDateString('es-ES')
+        }
+        guardarAdmins()
+        
+        await sock.sendMessage(chatId, { 
+          text: `👑 Admin Supremo otorgado a ${adminsSupremos[mentionedJid].nombre}`,
+          mentions: [mentionedJid]
+        })
+      }
+      
+      // #dar_rayo_dios
+      if (body.startsWith("#dar_rayo_dios")) {
+        const mentionedJid = msg.message?.extendedTextMessage?.contextInfo?.mentionedJid?.[0]
+        if (!mentionedJid) {
+          await sock.sendMessage(chatId, { text: "❌ Menciona al usuario" })
+          return
+        }
+        
+        if (!usuarios[mentionedJid]) {
+          await sock.sendMessage(chatId, { text: "❌ Usuario no encontrado" })
+          return
+        }
+        
+        usuarios[mentionedJid].rayo = "Dios"
+        usuarios[mentionedJid].poder = Math.max(usuarios[mentionedJid].poder, 10000000)
+        guardarBD()
+        
+        await sock.sendMessage(chatId, { 
+          text: `⚡ Rayo Divino Dios otorgado a ${usuarios[mentionedJid].nombre}`,
+          mentions: [mentionedJid]
+        })
+      }
     }
   })
 }
