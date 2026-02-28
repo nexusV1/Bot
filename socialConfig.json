@@ -1,0 +1,6 @@
+{
+  "badWords": ["puta","idiota","imbecil","tonto","estupido","estúpido","mierda","shut","fuck"],
+  "alertThreshold": 30,
+  "alertWindowMs": 60000,
+  "historialVisibility": "public"
+}

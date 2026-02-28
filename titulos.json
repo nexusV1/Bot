@@ -1,0 +1,7 @@
+{
+  "titulos": [
+    { "id": "boss_winner", "nombre": "Vencedor de Boss", "icono": "✹", "tipo": "boss" },
+    { "id": "eterno", "nombre": "Eterno", "icono": "✶", "tipo": "temporada" },
+    { "id": "rey_temporada", "nombre": "Rey de Temporada", "icono": "♛", "tipo": "temporada" }
+  ]
+}

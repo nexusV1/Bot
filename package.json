@@ -1,0 +1,37 @@
+{
+  "name": "bot-supreme",
+  "version": "1.0.0",
+  "description": "Bot Supreme - proyecto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write .",
+    "backup": "node scripts/backup.js",
+    "migrate": "node scripts/migrate-to-sqlite.js",
+    "validate": "node scripts/validate-refactor.js",
+    "integrate": "node scripts/integrate-systems.js",
+    "optimize-db": "node -e \"const opt = require('./db-optimizer'); const db = require('./db_ext'); db.init(); const o = new opt(db); o.vacuum(); o.cleanup();\"",
+    "db-stats": "node -e \"const db = require('./db_ext'); db.init(); console.log(JSON.stringify(db.getDBStats(), null, 2));\"",
+    "db-export": "node -e \"const db = require('./db_ext'); db.init(); const fs = require('fs'); fs.writeFileSync('backup-export.json', JSON.stringify(db.getDBStats(), null, 2));\"",
+    "health-check": "node scripts/health-check.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.2.0",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^2.8.8",
+    "jest": "^29.6.0",
+    "nodemon": "^2.0.22",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

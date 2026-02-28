@@ -1,0 +1,12 @@
+{
+  "cofres": [
+    {"id": "cofre_comun", "nombre": "Cofre Común", "tipo": "comun"},
+    {"id": "cofre_raro", "nombre": "Cofre Raro", "tipo": "raro"},
+    {"id": "cofre_mitologico", "nombre": "Cofre Mitológico", "tipo": "mitologico"}
+  ],
+  "llaves": [
+    {"id": "llave_comun", "nombre": "Llave Común"},
+    {"id": "llave_dorada", "nombre": "Llave Dorada"},
+    {"id": "llave_mitologica", "nombre": "Llave Mitológica"}
+  ]
+}

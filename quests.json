@@ -1,0 +1,68 @@
+{
+  "daily": [
+    {
+      "mid": "d_gvapk50",
+      "id": "invite_members",
+      "target": 1,
+      "rewards": {
+        "coins": 200,
+        "exp": 100,
+        "season": 10
+      }
+    },
+    {
+      "mid": "d_ku4ljnj",
+      "id": "craft_any",
+      "target": 1,
+      "rewards": {
+        "coins": 200,
+        "exp": 100,
+        "season": 10
+      }
+    },
+    {
+      "mid": "d_em7j70d",
+      "id": "invite_members",
+      "target": 1,
+      "rewards": {
+        "coins": 200,
+        "exp": 100,
+        "season": 10
+      }
+    }
+  ],
+  "weekly": [
+    {
+      "mid": "w_ot05kcs",
+      "id": "win_duels",
+      "target": 5,
+      "rewards": {
+        "coins": 1500,
+        "exp": 800,
+        "season": 100
+      }
+    },
+    {
+      "mid": "w_xhrsydw",
+      "id": "complete_raids",
+      "target": 3,
+      "rewards": {
+        "coins": 1500,
+        "exp": 800,
+        "season": 100
+      }
+    },
+    {
+      "mid": "w_dxuu7bk",
+      "id": "craft_any",
+      "target": 3,
+      "rewards": {
+        "coins": 1500,
+        "exp": 800,
+        "season": 100
+      }
+    }
+  ],
+  "lastDailyRefresh": 1770599996427,
+  "lastWeeklyRefresh": 1770254430334
+}

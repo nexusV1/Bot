@@ -1,0 +1,12 @@
+{
+  "seasons": {
+    "Temporada_1": {
+      "standings": {},
+      "started": 1770334594283,
+      "ends": 1772333999999,
+      "archived": false,
+      "name": "Temporada 2026-02"
+    }
+  },
+  "current": "Temporada_1"
+}

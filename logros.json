@@ -1,0 +1,85 @@
+{
+  "LOGROS": [
+    {
+      "id": "primer_duelo",
+      "nombre": "Primer Golpe",
+      "descripcion": "Gana tu primer duelo",
+      "tipo": "duelos",
+      "condicion": 1,
+      "recompensa": 500,
+      "emoji": "⚔️"
+    },
+    {
+      "id": "duelos_10",
+      "nombre": "Guerrero",
+      "descripcion": "Gana 10 duelos",
+      "tipo": "duelos",
+      "condicion": 10,
+      "recompensa": 2000,
+      "emoji": "🗡️"
+    },
+    {
+      "id": "duelos_50",
+      "nombre": "Campeón",
+      "descripcion": "Gana 50 duelos",
+      "tipo": "duelos",
+      "condicion": 50,
+      "recompensa": 10000,
+      "emoji": "👑"
+    },
+    {
+      "id": "dinero_10k",
+      "nombre": "Mercader",
+      "descripcion": "Acumula 10,000 de dinero",
+      "tipo": "dinero",
+      "condicion": 10000,
+      "recompensa": 1000,
+      "emoji": "💰"
+    },
+    {
+      "id": "dinero_100k",
+      "nombre": "Magnate",
+      "descripcion": "Acumula 100,000 de dinero",
+      "tipo": "dinero",
+      "condicion": 100000,
+      "recompensa": 5000,
+      "emoji": "💎"
+    },
+    {
+      "id": "boss_5",
+      "nombre": "Cazador de Bestias",
+      "descripcion": "Derrota 5 bosses",
+      "tipo": "bosses",
+      "condicion": 5,
+      "recompensa": 3000,
+      "emoji": "🐉"
+    },
+    {
+      "id": "boss_25",
+      "nombre": "Amo de los Bosses",
+      "descripcion": "Derrota 25 bosses",
+      "tipo": "bosses",
+      "condicion": 25,
+      "recompensa": 15000,
+      "emoji": "🔥"
+    },
+    {
+      "id": "nivel_20",
+      "nombre": "Aprendiz",
+      "descripcion": "Alcanza nivel 20",
+      "tipo": "nivel",
+      "condicion": 20,
+      "recompensa": 2500,
+      "emoji": "📈"
+    },
+    {
+      "id": "nivel_50",
+      "nombre": "Maestro",
+      "descripcion": "Alcanza nivel 50",
+      "tipo": "nivel",
+      "condicion": 50,
+      "recompensa": 10000,
+      "emoji": "✨"
+    }
+  ]
+}

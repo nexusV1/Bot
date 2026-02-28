@@ -1,0 +1,64 @@
+{
+  "EVENTOS": [
+    {
+      "id": "evento_001",
+      "nombre": "Búsqueda del Tesoro",
+      "descripcion": "Encuentra tesoros escondidos ganando monedas bonus",
+      "tipo": "aventura",
+      "fechaInicio": "2026-02-08",
+      "fechaFin": "2026-02-14",
+      "duracion": 7,
+      "recompensaBase": 5000,
+      "multiplicador": 2,
+      "participantes": [],
+      "estado": "activo"
+    },
+    {
+      "id": "evento_002",
+      "nombre": "Fin de Semana de Duelos",
+      "descripcion": "Gana bonus en todos tus duelos este fin de semana",
+      "tipo": "duelos",
+      "fechaInicio": "2026-02-13",
+      "fechaFin": "2026-02-15",
+      "duracion": 2,
+      "recompensaBase": 2000,
+      "multiplicador": 1.5,
+      "participantes": [],
+      "estado": "proximo"
+    }
+  ],
+  "TORNEOS": [
+    {
+      "id": "torneo_001",
+      "nombre": "Torneo de Duelos Extremos",
+      "descripcion": "Compite contra otros jugadores en una serie de duelos",
+      "tipo": "duelos",
+      "fechaInicio": "2026-02-10",
+      "fechaFin": "2026-02-17",
+      "maxParticipantes": 32,
+      "participantes": [],
+      "premios": {
+        "1": 20000,
+        "2": 10000,
+        "3": 5000
+      },
+      "estado": "proxima"
+    },
+    {
+      "id": "torneo_002",
+      "nombre": "Cacería de Bosses",
+      "descripcion": "Mata la mayor cantidad de bosses en el tiempo límite",
+      "tipo": "bosses",
+      "fechaInicio": "2026-02-15",
+      "fechaFin": "2026-02-22",
+      "maxParticipantes": 50,
+      "participantes": [],
+      "premios": {
+        "1": 30000,
+        "2": 15000,
+        "3": 8000
+      },
+      "estado": "proxima"
+    }
+  ]
+}

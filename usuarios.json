@@ -1,0 +1,1581 @@
+{
+  "247725811568892@lid": {
+    "identidad": "1A5-0VP-BU7",
+    "historialNegro": [
+      {
+        "fecha": "2026-02-06",
+        "accion": "Insulto detectado",
+        "motivo": "Palabra: mierda"
+      },
+      {
+        "fecha": "2026-02-06",
+        "accion": "Insulto detectado",
+        "motivo": "Palabra: puta"
+      }
+    ],
+    "memoria": {
+      "mensajes": 63,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 2,
+      "lastMessageTs": 1770342713206
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 62
+  },
+  "23180659961969@lid": {
+    "identidad": "LAZ-539-93B",
+    "historialNegro": [
+      {
+        "fecha": "2026-02-06",
+        "accion": "Insulto detectado",
+        "motivo": "Palabra: idiota"
+      }
+    ],
+    "memoria": {
+      "mensajes": 38,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 1,
+      "lastMessageTs": 1770341962048
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 37
+  },
+  "112704874364995@lid": {
+    "identidad": "O42-N4X-MHB",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 28,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770342657398
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 27
+  },
+  "245900484022408@lid": {
+    "identidad": "XP2-MTW-H1O",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 9,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770342069739
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 8
+  },
+  "205471654903964@lid": {
+    "identidad": "2GR-Y49-VXO",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 125,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770619597596
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {
+      "espada_especial_24": 1,
+      "espada_comun_9": 1
+    },
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 1770619412369,
+    "coinsUniversal": 0,
+    "dinero": 22893,
+    "ultimoTrabajo": 1770619433563,
+    "ultimoRobo": 1770619435918,
+    "multiplicadorTrabajo": 0,
+    "exp": 340,
+    "nivel": 2,
+    "messagesCount": 58,
+    "lastActiveDay": "2026-02-09",
+    "consecutiveDays": 1,
+    "seasonsParticipated": [],
+    "achievements": [
+      "registrado",
+      "primer_daily"
+    ],
+    "stats": {
+      "trainCount": 2
+    },
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 1,
+      "cofre_raro": 0,
+      "cofre_mitologico": 1,
+      "llave_comun": 1,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": "espada_especial_24"
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 59,
+    "lastBossCreate": 1770619341807,
+    "banco": 0,
+    "inversionesPendientes": [],
+    "poder": 910,
+    "titulosUnlocked": [
+      "boss_winner"
+    ],
+    "lastBossKill": 1770342459301,
+    "nombre": "deidad",
+    "ultimaDaily": 1770619389729,
+    "missions": {
+      "gana_duelos": {
+        "id": "gana_duelos",
+        "progress": 0,
+        "completed": false,
+        "completedDate": null,
+        "lastReset": "Mon Feb 09 2026"
+      },
+      "entrena_veces": {
+        "id": "entrena_veces",
+        "progress": 1,
+        "completed": false,
+        "completedDate": null,
+        "lastReset": "Mon Feb 09 2026"
+      },
+      "derrota_bosses": {
+        "id": "derrota_bosses",
+        "progress": 0,
+        "completed": false,
+        "completedDate": null,
+        "lastReset": "Mon Feb 09 2026"
+      },
+      "gana_dinero": {
+        "id": "gana_dinero",
+        "progress": 0,
+        "completed": false,
+        "completedDate": null,
+        "lastReset": "Mon Feb 09 2026"
+      },
+      "mensajes": {
+        "id": "mensajes",
+        "progress": 0,
+        "completed": false,
+        "completedDate": null,
+        "lastReset": "Mon Feb 09 2026"
+      },
+      "lastDailyReset": "Mon Feb 09 2026"
+    },
+    "ultimaApuesta": 1770619449545,
+    "logros": {}
+  },
+  "231606212120751@lid": {
+    "identidad": "ZKI-ULF-M9L",
+    "historialNegro": [
+      {
+        "fecha": "2026-02-06",
+        "accion": "Insulto detectado",
+        "motivo": "Palabra: mierda"
+      },
+      {
+        "fecha": "2026-02-06",
+        "accion": "Insulto detectado",
+        "motivo": "Palabra: puta"
+      }
+    ],
+    "memoria": {
+      "mensajes": 14,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 2,
+      "lastMessageTs": 1770342621040
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 13
+  },
+  "16373086478588@lid": {
+    "identidad": "Q16-OM9-TK5",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 1,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770341763143
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0
+  },
+  "197890769186865@lid": {
+    "identidad": "CPZ-K1A-WDE",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 2,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770342237873
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 1
+  },
+  "39922123690139@lid": {
+    "identidad": "GEE-KIZ-KGW",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 5,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770342404046
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 4
+  },
+  "217686776778907@lid": {
+    "identidad": "P9S-B67-RT1",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 10,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770602379661
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 9
+  },
+  "236605554077729@lid": {
+    "identidad": "3BZ-DF0-5F4",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 11,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770342672447
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 10
+  },
+  "216677006499893@lid": {
+    "identidad": "D24-8LY-J02",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 4,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770342196805
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 3
+  },
+  "205866859028503@lid": {
+    "identidad": "R7P-PW0-LPP",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 1,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770341955275
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0
+  },
+  "88141520179410@lid": {
+    "identidad": "G5J-0S3-TLU",
+    "historialNegro": [
+      {
+        "fecha": "2026-02-06",
+        "accion": "Insulto detectado",
+        "motivo": "Palabra: puta"
+      },
+      {
+        "fecha": "2026-02-06",
+        "accion": "Insulto detectado",
+        "motivo": "Palabra: puta"
+      }
+    ],
+    "memoria": {
+      "mensajes": 27,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 2,
+      "lastMessageTs": 1770603831381
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 26
+  },
+  "57153868046383@lid": {
+    "identidad": "O5H-MQS-QBI",
+    "historialNegro": [
+      {
+        "fecha": "2026-02-06",
+        "accion": "Insulto detectado",
+        "motivo": "Palabra: idiota"
+      }
+    ],
+    "memoria": {
+      "mensajes": 4,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 1,
+      "lastMessageTs": 1770342196095
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 3
+  },
+  "80183398768863@lid": {
+    "identidad": "RHE-LUT-7RI",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 1,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770342184201
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0
+  },
+  "246398498947163@lid": {
+    "identidad": "T9A-AY7-PDT",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 8,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770603797519
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 3,
+    "lastActiveDay": "2026-02-09",
+    "consecutiveDays": 1,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 7
+  },
+  "250856406528222@lid": {
+    "identidad": "5DV-YVE-M3M",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 1,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770342416077
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0
+  },
+  "20878507147471@lid": {
+    "identidad": "UYL-U57-TGG",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 14,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770602472983
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 7,
+    "lastActiveDay": "2026-02-09",
+    "consecutiveDays": 1,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 13
+  },
+  "61452996067502@lid": {
+    "identidad": "SHN-0WZ-SQ7",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 17,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770604010066
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 16
+  },
+  "234638794588277@lid": {
+    "identidad": "ECL-S9Q-S4B",
+    "historialNegro": [
+      {
+        "fecha": "2026-02-09",
+        "accion": "Insulto detectado",
+        "motivo": "Palabra: estúpido"
+      }
+    ],
+    "memoria": {
+      "mensajes": 10,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 1,
+      "lastMessageTs": 1770603975779
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 9
+  },
+  "228793595732042@lid": {
+    "identidad": "MU3-W6Z-QTJ",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 1,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770602405057
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0
+  },
+  "139242839789693@lid": {
+    "identidad": "X7H-GT8-OR2",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 1,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770603918799
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 0,
+    "lastActiveDay": null,
+    "consecutiveDays": 0,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0
+  },
+  "273079037124837@lid": {
+    "identidad": "Y5E-8I3-H3O",
+    "historialNegro": [],
+    "memoria": {
+      "mensajes": 4,
+      "audios": 0,
+      "silencios": 0,
+      "conflictos": 0,
+      "lastMessageTs": 1770604009250
+    },
+    "status": null,
+    "cooldowns": {},
+    "badges": [],
+    "inventario": {},
+    "efectosActivos": [],
+    "mensajesEliminados": {},
+    "ultimaDropGratis": 0,
+    "vida": 100,
+    "defensa": 0,
+    "ultimoEntrenamiento": 0,
+    "coinsUniversal": 0,
+    "dinero": 1000,
+    "ultimoTrabajo": 0,
+    "ultimoRobo": 0,
+    "multiplicadorTrabajo": 0,
+    "exp": 0,
+    "nivel": 1,
+    "messagesCount": 3,
+    "lastActiveDay": "2026-02-09",
+    "consecutiveDays": 1,
+    "seasonsParticipated": [],
+    "achievements": [],
+    "stats": {},
+    "prestige": 0,
+    "mochila": {
+      "cofre_comun": 0,
+      "cofre_raro": 0,
+      "cofre_mitologico": 0,
+      "llave_comun": 0,
+      "llave_dorada": 0,
+      "llave_mitologica": 0
+    },
+    "fragmentos": {},
+    "equipo": {
+      "weapon": null
+    },
+    "quests": {},
+    "faccion": null,
+    "reputacionFaccion": 0,
+    "battlePass": {
+      "tier": 0,
+      "puntos": 0,
+      "recompensasReclamadas": 0
+    },
+    "dungeonProgress": {
+      "completados": [],
+      "enProgreso": null,
+      "nivelActual": 0
+    },
+    "montura": null,
+    "monturas": [],
+    "questCounters": {
+      "dinero_total": 0,
+      "bosses_derrotados": 0,
+      "items_comprados": 0,
+      "duelos_ganados": 0,
+      "trabajos_realizados": 0
+    },
+    "abusoCount": 3
+  }
+}
