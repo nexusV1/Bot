@@ -1,0 +1,668 @@
+2026-02-28T23:52:19.105Z [info]: [DataManager] Inicializado
+2026-02-28T23:52:19.109Z [info]: [DataManager] Archivo cargado: config/quests.json (1 entradas)
+2026-02-28T23:52:19.109Z [info]: [DataManager] Archivo cargado: config/factions.json (1 entradas)
+2026-02-28T23:52:19.110Z [info]: [DataManager] Archivo cargado: config/dungeons.json (1 entradas)
+2026-02-28T23:52:19.110Z [info]: [DataManager] Archivo cargado: config/mounts.json (1 entradas)
+2026-02-28T23:52:19.110Z [info]: [DataManager] Archivo cargado: logros.json (1 entradas)
+2026-02-28T23:52:19.111Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:52:19.111Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:52:19.111Z [info]: [DataManager] Archivo cargado: dungeons_instancias.json (1 entradas)
+2026-02-28T23:52:19.112Z [info]: [DB] Inicialización completada
+2026-02-28T23:52:19.113Z [info]: [Fragmentos] Cargados 40 fragmentos
+2026-02-28T23:52:19.114Z [info]: [Inventario] Cargados 3 cofres y 3 llaves
+2026-02-28T23:52:19.114Z [info]: [Abuso] Cargado historial de abuso con 0 usuarios
+2026-02-28T23:52:19.114Z [info]: [db] titulos cargados desde SQLite
+2026-02-28T23:52:19.114Z [info]: [db] bosses cargados desde SQLite
+2026-02-28T23:52:19.807Z [info]: [Usuarios] No se encontró usuarios.json, iniciando con objeto vacío
+2026-02-28T23:52:19.808Z [info]: [InventoryManager] Inicializado
+2026-02-28T23:52:19.808Z [info]: [InventoryManager] Sistema de inventario inicializado
+2026-02-28T23:52:19.808Z [info]: [AchievementsManager] Inicializado con 9 logros
+2026-02-28T23:52:19.809Z [info]: [AchievementsManager] Sistema de logros inicializado
+2026-02-28T23:52:19.809Z [info]: [EventosManager] Inicializado con 2 eventos y 2 torneos
+2026-02-28T23:52:19.809Z [info]: [EventosManager] Sistema de eventos y torneos inicializado
+2026-02-28T23:52:19.809Z [info]: [DungeonsManager] Inicializado con 3 mazmorras
+2026-02-28T23:52:19.810Z [info]: [DungeonsManager] Sistema de mazmorras inicializado
+2026-02-28T23:52:19.825Z [info]: START_WEB no definido; la página web permanecerá inactiva.
+2026-02-28T23:52:20.464Z [info]: Usando versión WA Web:
+2026-02-28T23:52:20.492Z [info]: 🔧 DEBUG: pairing phoneNumber normalized ->
+2026-02-28T23:52:20.493Z [info]: 
+🔗 Emparejado por código seleccionado. No solicitaré el código hasta que la conexión esté "open".
+2026-02-28T23:52:20.493Z [info]: 📱 Número de pairing (normalizado):
+2026-02-28T23:52:20.493Z [info]: 🔧 DEBUG: FORCE_PAIR_CODE=
+2026-02-28T23:52:20.493Z [info]: 🔧 DEBUG: PAIRING_METHOD=
+2026-02-28T23:52:20.495Z [info]: 🔁 connection.update
+2026-02-28T23:52:21.880Z [info]: 🔁 connection.update
+2026-02-28T23:52:21.880Z [info]: ℹ️ Se recibió QR mientras pairingMode=code; mostrando QR como fallback.
+2026-02-28T23:52:21.880Z [info]: QR (texto):
+2026-02-28T23:52:22.058Z [info]: 📷 QR guardado en
+2026-02-28T23:52:22.058Z [info]: Escanea el QR desde WhatsApp > Dispositivos vinculados
+2026-02-28T23:52:32.296Z [info]: [DataManager] Inicializado
+2026-02-28T23:52:32.299Z [info]: [DataManager] Archivo cargado: config/quests.json (1 entradas)
+2026-02-28T23:52:32.300Z [info]: [DataManager] Archivo cargado: config/factions.json (1 entradas)
+2026-02-28T23:52:32.300Z [info]: [DataManager] Archivo cargado: config/dungeons.json (1 entradas)
+2026-02-28T23:52:32.301Z [info]: [DataManager] Archivo cargado: config/mounts.json (1 entradas)
+2026-02-28T23:52:32.301Z [info]: [DataManager] Archivo cargado: logros.json (1 entradas)
+2026-02-28T23:52:32.302Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:52:32.302Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:52:32.302Z [info]: [DataManager] Archivo cargado: dungeons_instancias.json (1 entradas)
+2026-02-28T23:52:32.303Z [info]: [DB] Inicialización completada
+2026-02-28T23:52:32.304Z [info]: [Fragmentos] Cargados 40 fragmentos
+2026-02-28T23:52:32.304Z [info]: [Inventario] Cargados 3 cofres y 3 llaves
+2026-02-28T23:52:32.305Z [info]: [Abuso] Cargado historial de abuso con 0 usuarios
+2026-02-28T23:52:32.305Z [info]: [db] titulos cargados desde SQLite
+2026-02-28T23:52:32.305Z [info]: [db] bosses cargados desde SQLite
+2026-02-28T23:52:33.012Z [info]: [Usuarios] No se encontró usuarios.json, iniciando con objeto vacío
+2026-02-28T23:52:33.012Z [info]: [InventoryManager] Inicializado
+2026-02-28T23:52:33.012Z [info]: [InventoryManager] Sistema de inventario inicializado
+2026-02-28T23:52:33.012Z [info]: [AchievementsManager] Inicializado con 9 logros
+2026-02-28T23:52:33.013Z [info]: [AchievementsManager] Sistema de logros inicializado
+2026-02-28T23:52:33.013Z [info]: [EventosManager] Inicializado con 2 eventos y 2 torneos
+2026-02-28T23:52:33.013Z [info]: [EventosManager] Sistema de eventos y torneos inicializado
+2026-02-28T23:52:33.013Z [info]: [DungeonsManager] Inicializado con 3 mazmorras
+2026-02-28T23:52:33.014Z [info]: [DungeonsManager] Sistema de mazmorras inicializado
+2026-02-28T23:52:33.029Z [info]: START_WEB no definido; la página web permanecerá inactiva.
+2026-02-28T23:52:34.291Z [info]: Usando versión WA Web:
+2026-02-28T23:52:34.313Z [info]: 🔧 DEBUG: pairing phoneNumber normalized ->
+2026-02-28T23:52:34.314Z [info]: 
+🔗 Emparejado por código seleccionado. No solicitaré el código hasta que la conexión esté "open".
+2026-02-28T23:52:34.314Z [info]: 📱 Número de pairing (normalizado):
+2026-02-28T23:52:34.314Z [info]: 🔧 DEBUG: FORCE_PAIR_CODE=
+2026-02-28T23:52:34.315Z [info]: 🔧 DEBUG: PAIRING_METHOD=
+2026-02-28T23:52:34.317Z [info]: 🔁 connection.update
+2026-02-28T23:52:35.598Z [info]: 🔁 connection.update
+2026-02-28T23:52:35.599Z [info]: ℹ️ Se recibió QR mientras pairingMode=code; mostrando QR como fallback.
+2026-02-28T23:52:35.599Z [info]: QR (texto):
+2026-02-28T23:52:35.779Z [info]: 📷 QR guardado en
+2026-02-28T23:52:35.779Z [info]: Escanea el QR desde WhatsApp > Dispositivos vinculados
+2026-02-28T23:53:16.905Z [info]: [DataManager] Inicializado
+2026-02-28T23:53:16.909Z [info]: [DataManager] Archivo cargado: config/quests.json (1 entradas)
+2026-02-28T23:53:16.909Z [info]: [DataManager] Archivo cargado: config/factions.json (1 entradas)
+2026-02-28T23:53:16.910Z [info]: [DataManager] Archivo cargado: config/dungeons.json (1 entradas)
+2026-02-28T23:53:16.910Z [info]: [DataManager] Archivo cargado: config/mounts.json (1 entradas)
+2026-02-28T23:53:16.911Z [info]: [DataManager] Archivo cargado: logros.json (1 entradas)
+2026-02-28T23:53:16.911Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:53:16.911Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:53:16.912Z [info]: [DataManager] Archivo cargado: dungeons_instancias.json (1 entradas)
+2026-02-28T23:53:16.912Z [info]: [DB] Inicialización completada
+2026-02-28T23:53:16.913Z [info]: [Fragmentos] Cargados 40 fragmentos
+2026-02-28T23:53:16.914Z [info]: [Inventario] Cargados 3 cofres y 3 llaves
+2026-02-28T23:53:16.914Z [info]: [Abuso] Cargado historial de abuso con 0 usuarios
+2026-02-28T23:53:16.915Z [info]: [db] titulos cargados desde SQLite
+2026-02-28T23:53:16.915Z [info]: [db] bosses cargados desde SQLite
+2026-02-28T23:53:17.607Z [info]: [Usuarios] No se encontró usuarios.json, iniciando con objeto vacío
+2026-02-28T23:53:17.608Z [info]: [InventoryManager] Inicializado
+2026-02-28T23:53:17.608Z [info]: [InventoryManager] Sistema de inventario inicializado
+2026-02-28T23:53:17.608Z [info]: [AchievementsManager] Inicializado con 9 logros
+2026-02-28T23:53:17.608Z [info]: [AchievementsManager] Sistema de logros inicializado
+2026-02-28T23:53:17.609Z [info]: [EventosManager] Inicializado con 2 eventos y 2 torneos
+2026-02-28T23:53:17.609Z [info]: [EventosManager] Sistema de eventos y torneos inicializado
+2026-02-28T23:53:17.609Z [info]: [DungeonsManager] Inicializado con 3 mazmorras
+2026-02-28T23:53:17.609Z [info]: [DungeonsManager] Sistema de mazmorras inicializado
+2026-02-28T23:53:17.625Z [info]: START_WEB no definido; la página web permanecerá inactiva.
+2026-02-28T23:53:18.218Z [info]: Usando versión WA Web:
+2026-02-28T23:53:18.240Z [info]: 🔧 DEBUG: pairing phoneNumber normalized ->
+2026-02-28T23:53:18.241Z [info]: 
+🔗 Emparejado por código seleccionado. No solicitaré el código hasta que la conexión esté "open".
+2026-02-28T23:53:18.241Z [info]: 📱 Número de pairing (normalizado):
+2026-02-28T23:53:18.242Z [info]: 🔧 DEBUG: FORCE_PAIR_CODE=
+2026-02-28T23:53:18.243Z [info]: 🔧 DEBUG: PAIRING_METHOD=
+2026-02-28T23:53:18.245Z [info]: 🔁 connection.update
+2026-02-28T23:53:19.948Z [info]: 🔁 connection.update
+2026-02-28T23:53:19.948Z [info]: ℹ️ Se recibió QR mientras pairingMode=code; mostrando QR como fallback.
+2026-02-28T23:53:19.949Z [info]: QR (texto):
+2026-02-28T23:53:20.130Z [info]: 📷 QR guardado en
+2026-02-28T23:53:20.130Z [info]: Escanea el QR desde WhatsApp > Dispositivos vinculados
+2026-02-28T23:55:45.559Z [info]: [DataManager] Inicializado
+2026-02-28T23:55:45.563Z [info]: [DataManager] Archivo cargado: config/quests.json (1 entradas)
+2026-02-28T23:55:45.564Z [info]: [DataManager] Archivo cargado: config/factions.json (1 entradas)
+2026-02-28T23:55:45.564Z [info]: [DataManager] Archivo cargado: config/dungeons.json (1 entradas)
+2026-02-28T23:55:45.565Z [info]: [DataManager] Archivo cargado: config/mounts.json (1 entradas)
+2026-02-28T23:55:45.566Z [info]: [DataManager] Archivo cargado: logros.json (1 entradas)
+2026-02-28T23:55:45.566Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:55:45.566Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:55:45.567Z [info]: [DataManager] Archivo cargado: dungeons_instancias.json (1 entradas)
+2026-02-28T23:55:45.567Z [info]: [DB] Inicialización completada
+2026-02-28T23:55:45.568Z [info]: [Fragmentos] Cargados 40 fragmentos
+2026-02-28T23:55:45.569Z [info]: [Inventario] Cargados 3 cofres y 3 llaves
+2026-02-28T23:55:45.569Z [info]: [Abuso] Cargado historial de abuso con 0 usuarios
+2026-02-28T23:55:45.569Z [info]: [db] titulos cargados desde SQLite
+2026-02-28T23:55:45.570Z [info]: [db] bosses cargados desde SQLite
+2026-02-28T23:55:46.276Z [info]: [Usuarios] Cargando 24 usuarios desde usuarios.json y migrando a SQLite
+2026-02-28T23:55:46.287Z [error]: [Usuarios] Error cargando usuarios.json: db.migrateFromJson is not a function
+2026-02-28T23:55:46.288Z [info]: [InventoryManager] Inicializado
+2026-02-28T23:55:46.288Z [info]: [InventoryManager] Sistema de inventario inicializado
+2026-02-28T23:55:46.289Z [info]: [AchievementsManager] Inicializado con 9 logros
+2026-02-28T23:55:46.289Z [info]: [AchievementsManager] Sistema de logros inicializado
+2026-02-28T23:55:46.289Z [info]: [EventosManager] Inicializado con 2 eventos y 2 torneos
+2026-02-28T23:55:46.289Z [info]: [EventosManager] Sistema de eventos y torneos inicializado
+2026-02-28T23:55:46.290Z [info]: [DungeonsManager] Inicializado con 3 mazmorras
+2026-02-28T23:55:46.290Z [info]: [DungeonsManager] Sistema de mazmorras inicializado
+2026-02-28T23:55:46.304Z [info]: START_WEB no definido; la página web permanecerá inactiva.
+2026-02-28T23:55:46.813Z [info]: Usando versión WA Web:
+2026-02-28T23:55:46.841Z [info]: 🔧 DEBUG: pairing phoneNumber normalized ->
+2026-02-28T23:55:46.842Z [info]: 
+🔗 Esperando QR para emparejar (se imprimirá en terminal)...
+2026-02-28T23:55:46.842Z [info]: 📱 Ve a WhatsApp > Configuración > Dispositivos vinculados > Vincular dispositivo y escanea el QR
+2026-02-28T23:55:46.844Z [info]: 🔁 connection.update
+2026-02-28T23:55:48.449Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:55:50.292Z [info]: 🔁 connection.update
+2026-02-28T23:55:50.301Z [info]: 🔁 connection.update
+2026-02-28T23:55:50.301Z [info]: ✅ ¡Bot conectado exitosamente a WhatsApp!
+2026-02-28T23:55:50.302Z [info]: ℹ️ auth/ contiene:
+2026-02-28T23:55:50.303Z [info]: ℹ️ state.creds.registered =
+2026-02-28T23:55:50.318Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:56:15.914Z [info]: [SHUTDOWN] Señal SIGINT recibida, guardando datos...
+2026-02-28T23:56:38.100Z [info]: [DataManager] Inicializado
+2026-02-28T23:56:38.105Z [info]: [DataManager] Archivo cargado: config/quests.json (1 entradas)
+2026-02-28T23:56:38.105Z [info]: [DataManager] Archivo cargado: config/factions.json (1 entradas)
+2026-02-28T23:56:38.106Z [info]: [DataManager] Archivo cargado: config/dungeons.json (1 entradas)
+2026-02-28T23:56:38.107Z [info]: [DataManager] Archivo cargado: config/mounts.json (1 entradas)
+2026-02-28T23:56:38.107Z [info]: [DataManager] Archivo cargado: logros.json (1 entradas)
+2026-02-28T23:56:38.108Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:56:38.108Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-02-28T23:56:38.109Z [info]: [DataManager] Archivo cargado: dungeons_instancias.json (1 entradas)
+2026-02-28T23:56:38.109Z [info]: [DB] Inicialización completada
+2026-02-28T23:56:38.111Z [info]: [Fragmentos] Cargados 40 fragmentos
+2026-02-28T23:56:38.111Z [info]: [Inventario] Cargados 3 cofres y 3 llaves
+2026-02-28T23:56:38.112Z [info]: [Abuso] Cargado historial de abuso con 0 usuarios
+2026-02-28T23:56:38.112Z [info]: [db] titulos cargados desde SQLite
+2026-02-28T23:56:38.112Z [info]: [db] bosses cargados desde SQLite
+2026-02-28T23:56:38.875Z [info]: [Usuarios] Cargando 24 usuarios desde usuarios.json y migrando a SQLite
+2026-02-28T23:56:38.886Z [error]: [Usuarios] Error cargando usuarios.json: db.migrateFromJson is not a function
+2026-02-28T23:56:38.888Z [info]: [InventoryManager] Inicializado
+2026-02-28T23:56:38.889Z [info]: [InventoryManager] Sistema de inventario inicializado
+2026-02-28T23:56:38.889Z [info]: [AchievementsManager] Inicializado con 9 logros
+2026-02-28T23:56:38.889Z [info]: [AchievementsManager] Sistema de logros inicializado
+2026-02-28T23:56:38.889Z [info]: [EventosManager] Inicializado con 2 eventos y 2 torneos
+2026-02-28T23:56:38.890Z [info]: [EventosManager] Sistema de eventos y torneos inicializado
+2026-02-28T23:56:38.890Z [info]: [DungeonsManager] Inicializado con 3 mazmorras
+2026-02-28T23:56:38.890Z [info]: [DungeonsManager] Sistema de mazmorras inicializado
+2026-02-28T23:56:38.908Z [info]: START_WEB no definido; la página web permanecerá inactiva.
+2026-02-28T23:56:39.464Z [info]: Usando versión WA Web:
+2026-02-28T23:56:39.489Z [info]: 🔧 DEBUG: pairing phoneNumber normalized ->
+2026-02-28T23:56:39.489Z [info]: 
+🔗 Esperando QR para emparejar (se imprimirá en terminal)...
+2026-02-28T23:56:39.490Z [info]: 📱 Ve a WhatsApp > Configuración > Dispositivos vinculados > Vincular dispositivo y escanea el QR
+2026-02-28T23:56:39.492Z [info]: 🔁 connection.update
+2026-02-28T23:56:40.757Z [info]: 🔁 connection.update
+2026-02-28T23:56:40.758Z [info]: QR (texto):
+2026-02-28T23:56:40.915Z [info]: 📷 QR guardado en
+2026-02-28T23:56:40.916Z [info]: Escanea el QR desde WhatsApp > Dispositivos vinculados
+2026-02-28T23:57:06.555Z [info]: 🔁 connection.update
+2026-02-28T23:57:06.563Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:06.973Z [info]: 🔁 connection.update
+2026-02-28T23:57:06.974Z [info]: ❌ Conexión cerrada debido a: Stream Errored (restart required)
+2026-02-28T23:57:06.975Z [info]: 🔄 Reconectando...
+2026-02-28T23:57:10.862Z [info]: Usando versión WA Web:
+2026-02-28T23:57:10.872Z [info]: 🔧 DEBUG: pairing phoneNumber normalized ->
+2026-02-28T23:57:10.872Z [info]: 
+🔗 Esperando QR para emparejar (se imprimirá en terminal)...
+2026-02-28T23:57:10.872Z [info]: 📱 Ve a WhatsApp > Configuración > Dispositivos vinculados > Vincular dispositivo y escanea el QR
+2026-02-28T23:57:10.873Z [info]: 🔁 connection.update
+2026-02-28T23:57:19.268Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:19.335Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:19.336Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:21.111Z [info]: 🔁 connection.update
+2026-02-28T23:57:21.755Z [info]: 🔁 connection.update
+2026-02-28T23:57:21.757Z [info]: 🔁 connection.update
+2026-02-28T23:57:21.757Z [info]: ✅ ¡Bot conectado exitosamente a WhatsApp!
+2026-02-28T23:57:21.758Z [info]: ℹ️ auth/ contiene:
+2026-02-28T23:57:21.759Z [info]: ℹ️ state.creds.registered =
+2026-02-28T23:57:21.763Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:22.100Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:22.105Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:22.131Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:28.811Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:28.826Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:28.830Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:29.411Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:57:30.041Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:58:18.364Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:58:20.318Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-02-28T23:58:42.024Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia
+2026-02-28T23:58:42.025Z [warn]: [Abuso] Advertencia para 120363406853680958@g.us (cuenta: 3)
+2026-02-28T23:58:57.186Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia
+2026-02-28T23:58:57.186Z [warn]: [Abuso] Advertencia para 120363406853680958@g.us (cuenta: 3)
+2026-02-28T23:58:58.343Z [error]: Error finalizando subastas: auctions is not defined
+2026-02-28T23:59:19.607Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia_publica
+2026-02-28T23:59:19.608Z [warn]: [Abuso] Advertencia pública para 120363406853680958@g.us (cuenta: 5)
+2026-02-28T23:59:37.628Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia_publica
+2026-02-28T23:59:37.630Z [warn]: [Abuso] Advertencia pública para 120363406853680958@g.us (cuenta: 5)
+2026-02-28T23:59:41.631Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_temporal
+2026-02-28T23:59:41.632Z [warn]: [Abuso] Mute temporal para 120363406853680958@g.us (cuenta: 7)
+2026-02-28T23:59:41.632Z [info]: Bloqueado envío automático a
+2026-02-28T23:59:45.310Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_temporal
+2026-02-28T23:59:45.311Z [warn]: [Abuso] Mute temporal para 120363406853680958@g.us (cuenta: 7)
+2026-02-28T23:59:57.703Z [info]: Bloqueado envío automático a
+2026-02-28T23:59:58.340Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:00:02.415Z [info]: [KICK] Intentando expulsar a 231606212120751@lid del grupo 120363406853680958@g.us
+2026-03-01T00:00:03.849Z [info]: [KICK] ✅ bot expulsó exitosamente a bot
+2026-03-01T00:00:08.468Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:08.469Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 11)
+2026-03-01T00:00:09.481Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:09.482Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 12)
+2026-03-01T00:00:20.157Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:20.158Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 13)
+2026-03-01T00:00:27.503Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:27.504Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 14)
+2026-03-01T00:00:27.504Z [info]: Bloqueado envío automático a
+2026-03-01T00:00:31.262Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:31.262Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 15)
+2026-03-01T00:00:32.006Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:32.007Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 11)
+2026-03-01T00:00:38.998Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:38.999Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 16)
+2026-03-01T00:00:40.427Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:40.428Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 12)
+2026-03-01T00:00:44.230Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:44.230Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 17)
+2026-03-01T00:00:49.631Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia
+2026-03-01T00:00:49.631Z [warn]: [Abuso] Advertencia para 120363406853680958@g.us (cuenta: 3)
+2026-03-01T00:00:50.849Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:50.850Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 13)
+2026-03-01T00:00:51.471Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:51.471Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 18)
+2026-03-01T00:00:56.074Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:00:56.074Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 19)
+2026-03-01T00:00:58.340Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:01:00.738Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:00.739Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 20)
+2026-03-01T00:01:03.065Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia_publica
+2026-03-01T00:01:03.066Z [warn]: [Abuso] Advertencia pública para 120363406853680958@g.us (cuenta: 5)
+2026-03-01T00:01:06.941Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:06.942Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 21)
+2026-03-01T00:01:08.562Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:08.562Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 22)
+2026-03-01T00:01:10.095Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:10.095Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 23)
+2026-03-01T00:01:12.058Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:12.059Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 24)
+2026-03-01T00:01:12.245Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_temporal
+2026-03-01T00:01:12.246Z [warn]: [Abuso] Mute temporal para 120363406853680958@g.us (cuenta: 7)
+2026-03-01T00:01:13.073Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:13.073Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 25)
+2026-03-01T00:01:20.257Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:20.258Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 14)
+2026-03-01T00:01:23.620Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:23.621Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 26)
+2026-03-01T00:01:23.621Z [info]: [KICK] Intentando expulsar a 16373086478588@lid del grupo 120363406853680958@g.us
+2026-03-01T00:01:24.654Z [info]: [KICK] ✅ santi expulsó exitosamente a 16373086478588
+2026-03-01T00:01:28.740Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:28.741Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 15)
+2026-03-01T00:01:30.075Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:30.076Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 27)
+2026-03-01T00:01:30.812Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:30.813Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 16)
+2026-03-01T00:01:32.021Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:01:32.022Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 28)
+2026-03-01T00:01:33.161Z [info]: [SHUTDOWN] Señal SIGINT recibida, guardando datos...
+2026-03-01T00:04:47.820Z [info]: [DataManager] Inicializado
+2026-03-01T00:04:47.834Z [info]: [DataManager] Archivo cargado: config/quests.json (1 entradas)
+2026-03-01T00:04:47.835Z [info]: [DataManager] Archivo cargado: config/factions.json (1 entradas)
+2026-03-01T00:04:47.836Z [info]: [DataManager] Archivo cargado: config/dungeons.json (1 entradas)
+2026-03-01T00:04:47.838Z [info]: [DataManager] Archivo cargado: config/mounts.json (1 entradas)
+2026-03-01T00:04:47.838Z [info]: [DataManager] Archivo cargado: logros.json (1 entradas)
+2026-03-01T00:04:47.839Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-03-01T00:04:47.839Z [info]: [DataManager] Archivo cargado: eventos.json (2 entradas)
+2026-03-01T00:04:47.840Z [info]: [DataManager] Archivo cargado: dungeons_instancias.json (1 entradas)
+2026-03-01T00:04:47.841Z [info]: [DB] Inicialización completada
+2026-03-01T00:04:47.843Z [info]: [Fragmentos] Cargados 40 fragmentos
+2026-03-01T00:04:47.845Z [info]: [Inventario] Cargados 3 cofres y 3 llaves
+2026-03-01T00:04:47.846Z [info]: [Abuso] Cargado historial de abuso con 1 usuarios
+2026-03-01T00:04:47.846Z [info]: [db] titulos cargados desde SQLite
+2026-03-01T00:04:47.847Z [info]: [db] bosses cargados desde SQLite
+2026-03-01T00:04:48.809Z [info]: [Usuarios] Cargando 24 usuarios desde usuarios.json y migrando a SQLite
+2026-03-01T00:04:48.821Z [error]: [Usuarios] Error cargando usuarios.json: db.migrateFromJson is not a function
+2026-03-01T00:04:48.822Z [info]: [InventoryManager] Inicializado
+2026-03-01T00:04:48.822Z [info]: [InventoryManager] Sistema de inventario inicializado
+2026-03-01T00:04:48.823Z [info]: [AchievementsManager] Inicializado con 9 logros
+2026-03-01T00:04:48.823Z [info]: [AchievementsManager] Sistema de logros inicializado
+2026-03-01T00:04:48.823Z [info]: [EventosManager] Inicializado con 2 eventos y 2 torneos
+2026-03-01T00:04:48.823Z [info]: [EventosManager] Sistema de eventos y torneos inicializado
+2026-03-01T00:04:48.823Z [info]: [DungeonsManager] Inicializado con 3 mazmorras
+2026-03-01T00:04:48.824Z [info]: [DungeonsManager] Sistema de mazmorras inicializado
+2026-03-01T00:04:48.841Z [info]: START_WEB no definido; la página web permanecerá inactiva.
+2026-03-01T00:04:49.371Z [info]: Usando versión WA Web:
+2026-03-01T00:04:49.416Z [info]: 🔧 DEBUG: pairing phoneNumber normalized ->
+2026-03-01T00:04:49.417Z [info]: 
+🔗 Esperando QR para emparejar (se imprimirá en terminal)...
+2026-03-01T00:04:49.417Z [info]: 📱 Ve a WhatsApp > Configuración > Dispositivos vinculados > Vincular dispositivo y escanea el QR
+2026-03-01T00:04:49.424Z [info]: 🔁 connection.update
+2026-03-01T00:04:56.300Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-03-01T00:04:56.304Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-03-01T00:04:58.090Z [info]: 🔁 connection.update
+2026-03-01T00:04:58.109Z [info]: 🔁 connection.update
+2026-03-01T00:04:58.110Z [info]: 🔁 connection.update
+2026-03-01T00:04:58.110Z [info]: ✅ ¡Bot conectado exitosamente a WhatsApp!
+2026-03-01T00:04:58.111Z [info]: ℹ️ auth/ contiene:
+2026-03-01T00:04:58.112Z [info]: ℹ️ state.creds.registered =
+2026-03-01T00:04:58.126Z [info]: ✅ Credenciales guardadas en auth/. Archivos:
+2026-03-01T00:05:18.738Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia
+2026-03-01T00:05:18.738Z [warn]: [Abuso] Advertencia para 120363406853680958@g.us (cuenta: 3)
+2026-03-01T00:05:22.937Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia
+2026-03-01T00:05:22.938Z [warn]: [Abuso] Advertencia para 120363406853680958@g.us (cuenta: 3)
+2026-03-01T00:05:32.558Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia_publica
+2026-03-01T00:05:32.559Z [warn]: [Abuso] Advertencia pública para 120363406853680958@g.us (cuenta: 5)
+2026-03-01T00:05:32.871Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia
+2026-03-01T00:05:32.871Z [warn]: [Abuso] Advertencia para 120363406853680958@g.us (cuenta: 3)
+2026-03-01T00:05:34.298Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia_publica
+2026-03-01T00:05:34.298Z [warn]: [Abuso] Advertencia pública para 120363406853680958@g.us (cuenta: 5)
+2026-03-01T00:05:38.516Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_temporal
+2026-03-01T00:05:38.516Z [warn]: [Abuso] Mute temporal para 120363406853680958@g.us (cuenta: 7)
+2026-03-01T00:05:44.036Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia_publica
+2026-03-01T00:05:44.037Z [warn]: [Abuso] Advertencia pública para 120363406853680958@g.us (cuenta: 5)
+2026-03-01T00:05:44.459Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_temporal
+2026-03-01T00:05:44.460Z [warn]: [Abuso] Mute temporal para 120363406853680958@g.us (cuenta: 7)
+2026-03-01T00:05:51.195Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia
+2026-03-01T00:05:51.196Z [warn]: [Abuso] Advertencia para 120363406853680958@g.us (cuenta: 3)
+2026-03-01T00:05:57.560Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:05:57.561Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 11)
+2026-03-01T00:05:58.219Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_temporal
+2026-03-01T00:05:58.220Z [warn]: [Abuso] Mute temporal para 120363406853680958@g.us (cuenta: 7)
+2026-03-01T00:05:58.375Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:05:58.376Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 11)
+2026-03-01T00:06:00.607Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:00.608Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 12)
+2026-03-01T00:06:02.668Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:02.669Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 12)
+2026-03-01T00:06:04.617Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:04.618Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 13)
+2026-03-01T00:06:04.713Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:04.714Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 13)
+2026-03-01T00:06:05.534Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:06:07.207Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:07.208Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 14)
+2026-03-01T00:06:10.792Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia_publica
+2026-03-01T00:06:10.793Z [warn]: [Abuso] Advertencia pública para 120363406853680958@g.us (cuenta: 5)
+2026-03-01T00:06:12.435Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:12.436Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 14)
+2026-03-01T00:06:17.103Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:17.104Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 15)
+2026-03-01T00:06:17.467Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_temporal
+2026-03-01T00:06:17.467Z [warn]: [Abuso] Mute temporal para 120363406853680958@g.us (cuenta: 7)
+2026-03-01T00:06:17.490Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:17.490Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 15)
+2026-03-01T00:06:22.229Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:22.230Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 16)
+2026-03-01T00:06:23.769Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:23.769Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 17)
+2026-03-01T00:06:25.701Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:25.702Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 16)
+2026-03-01T00:06:26.222Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:26.222Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 18)
+2026-03-01T00:06:30.722Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:30.722Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 19)
+2026-03-01T00:06:41.066Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:41.067Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 17)
+2026-03-01T00:06:42.477Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:42.477Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 18)
+2026-03-01T00:06:42.935Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:42.935Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 20)
+2026-03-01T00:06:43.942Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:43.942Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 21)
+2026-03-01T00:06:45.272Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:45.273Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 19)
+2026-03-01T00:06:46.313Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:46.313Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 20)
+2026-03-01T00:06:52.036Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:52.036Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 21)
+2026-03-01T00:06:53.561Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:53.562Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 22)
+2026-03-01T00:06:56.222Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:06:56.223Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 23)
+2026-03-01T00:07:05.533Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:07:09.247Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:09.248Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 24)
+2026-03-01T00:07:10.570Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:10.570Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 25)
+2026-03-01T00:07:11.726Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:11.727Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 26)
+2026-03-01T00:07:27.762Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:27.762Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 11)
+2026-03-01T00:07:28.589Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:28.589Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 12)
+2026-03-01T00:07:40.467Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:40.467Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 22)
+2026-03-01T00:07:41.749Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:41.749Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 23)
+2026-03-01T00:07:42.446Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:42.446Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 11)
+2026-03-01T00:07:51.935Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:51.935Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 27)
+2026-03-01T00:07:55.049Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:07:55.050Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 24)
+2026-03-01T00:08:05.532Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:08:07.226Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:07.226Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 28)
+2026-03-01T00:08:10.296Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:10.297Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 29)
+2026-03-01T00:08:12.931Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:12.931Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 30)
+2026-03-01T00:08:30.444Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:30.444Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 13)
+2026-03-01T00:08:36.141Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:36.141Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 14)
+2026-03-01T00:08:39.755Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia
+2026-03-01T00:08:39.755Z [warn]: [Abuso] Advertencia para 120363406853680958@g.us (cuenta: 3)
+2026-03-01T00:08:40.459Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:40.460Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 31)
+2026-03-01T00:08:45.590Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:45.590Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 15)
+2026-03-01T00:08:46.825Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:46.826Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 32)
+2026-03-01T00:08:51.323Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:51.323Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 33)
+2026-03-01T00:08:57.468Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:57.469Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 16)
+2026-03-01T00:08:59.626Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:08:59.626Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 34)
+2026-03-01T00:09:01.026Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:01.026Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 17)
+2026-03-01T00:09:03.228Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:03.228Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 35)
+2026-03-01T00:09:04.443Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:04.443Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 36)
+2026-03-01T00:09:05.533Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:09:05.864Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:05.865Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 18)
+2026-03-01T00:09:10.560Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:10.560Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 25)
+2026-03-01T00:09:17.373Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:17.374Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 26)
+2026-03-01T00:09:27.988Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:27.989Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 19)
+2026-03-01T00:09:31.586Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:31.586Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 37)
+2026-03-01T00:09:37.020Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:37.020Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 27)
+2026-03-01T00:09:38.291Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:38.291Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 20)
+2026-03-01T00:09:39.355Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:39.356Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 28)
+2026-03-01T00:09:40.896Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:40.897Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 29)
+2026-03-01T00:09:45.197Z [info]: [Abuso] Registrado para 120363406853680958@g.us: advertencia_publica
+2026-03-01T00:09:45.198Z [warn]: [Abuso] Advertencia pública para 120363406853680958@g.us (cuenta: 5)
+2026-03-01T00:09:47.238Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:47.238Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 21)
+2026-03-01T00:09:50.774Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:50.774Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 22)
+2026-03-01T00:09:52.896Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:52.896Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 30)
+2026-03-01T00:09:53.084Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:53.084Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 23)
+2026-03-01T00:09:54.003Z [info]: [KICK] Intentando expulsar a 20878507147471@lid del grupo 120363406853680958@g.us
+2026-03-01T00:09:55.330Z [info]: [KICK] ✅ 66233395364079 expulsó exitosamente a 20878507147471
+2026-03-01T00:09:56.680Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:56.680Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 24)
+2026-03-01T00:09:57.410Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:09:57.411Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 31)
+2026-03-01T00:10:00.783Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:00.784Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 38)
+2026-03-01T00:10:05.197Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:05.197Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 39)
+2026-03-01T00:10:05.534Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:10:12.886Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:12.887Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 25)
+2026-03-01T00:10:14.882Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:14.882Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 26)
+2026-03-01T00:10:19.561Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:19.561Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 40)
+2026-03-01T00:10:20.013Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:20.014Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 27)
+2026-03-01T00:10:27.290Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:27.290Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 41)
+2026-03-01T00:10:29.760Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:29.760Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 42)
+2026-03-01T00:10:30.970Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:30.971Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 43)
+2026-03-01T00:10:31.590Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:31.591Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 28)
+2026-03-01T00:10:36.401Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_temporal
+2026-03-01T00:10:36.402Z [warn]: [Abuso] Mute temporal para 120363406853680958@g.us (cuenta: 7)
+2026-03-01T00:10:36.598Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:36.598Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 44)
+2026-03-01T00:10:41.556Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:41.556Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 45)
+2026-03-01T00:10:41.588Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:41.588Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 29)
+2026-03-01T00:10:42.475Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:42.476Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 46)
+2026-03-01T00:10:44.156Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:44.157Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 47)
+2026-03-01T00:10:44.793Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:44.793Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 32)
+2026-03-01T00:10:45.411Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:45.411Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 48)
+2026-03-01T00:10:46.071Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:46.071Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 30)
+2026-03-01T00:10:47.064Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:47.064Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 49)
+2026-03-01T00:10:49.526Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:49.527Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 50)
+2026-03-01T00:10:56.823Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:56.823Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 51)
+2026-03-01T00:10:57.289Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:57.289Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 33)
+2026-03-01T00:10:58.445Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:10:58.446Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 31)
+2026-03-01T00:11:02.633Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:02.633Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 32)
+2026-03-01T00:11:05.535Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:11:07.035Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:07.035Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 34)
+2026-03-01T00:11:15.945Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:15.946Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 33)
+2026-03-01T00:11:16.843Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:16.844Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 35)
+2026-03-01T00:11:18.935Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:18.935Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 34)
+2026-03-01T00:11:23.818Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:23.818Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 36)
+2026-03-01T00:11:28.501Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:28.502Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 52)
+2026-03-01T00:11:29.768Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:29.768Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 37)
+2026-03-01T00:11:30.518Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:30.518Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 53)
+2026-03-01T00:11:31.493Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:31.494Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 54)
+2026-03-01T00:11:34.967Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:34.967Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 35)
+2026-03-01T00:11:36.066Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:36.067Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 38)
+2026-03-01T00:11:39.920Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:39.920Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 55)
+2026-03-01T00:11:43.059Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:43.060Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 39)
+2026-03-01T00:11:44.422Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:44.423Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 56)
+2026-03-01T00:11:47.360Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:47.361Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 36)
+2026-03-01T00:11:54.096Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:54.096Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 37)
+2026-03-01T00:11:56.324Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:56.324Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 57)
+2026-03-01T00:11:58.853Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:11:58.853Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 58)
+2026-03-01T00:12:05.535Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:12:11.258Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:11.258Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 40)
+2026-03-01T00:12:12.225Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:12.226Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 59)
+2026-03-01T00:12:17.409Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:17.409Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 38)
+2026-03-01T00:12:21.495Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:21.496Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 39)
+2026-03-01T00:12:24.231Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:24.232Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 60)
+2026-03-01T00:12:25.048Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:25.048Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 61)
+2026-03-01T00:12:25.070Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:25.070Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 40)
+2026-03-01T00:12:31.433Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:31.434Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 62)
+2026-03-01T00:12:32.791Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:32.792Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 63)
+2026-03-01T00:12:37.658Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:37.658Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 64)
+2026-03-01T00:12:38.891Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:38.891Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 41)
+2026-03-01T00:12:42.084Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:42.085Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 65)
+2026-03-01T00:12:43.385Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:43.386Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 66)
+2026-03-01T00:12:45.224Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:45.225Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 41)
+2026-03-01T00:12:46.777Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:46.777Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 67)
+2026-03-01T00:12:50.518Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:50.518Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 42)
+2026-03-01T00:12:52.705Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:52.706Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 68)
+2026-03-01T00:12:53.131Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:53.131Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 42)
+2026-03-01T00:12:54.595Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:12:54.596Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 69)
+2026-03-01T00:13:00.116Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:00.116Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 70)
+2026-03-01T00:13:02.525Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:02.525Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 43)
+2026-03-01T00:13:03.907Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:03.908Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 43)
+2026-03-01T00:13:05.536Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:13:07.258Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:07.259Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 44)
+2026-03-01T00:13:09.355Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:09.356Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 71)
+2026-03-01T00:13:10.192Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:10.192Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 45)
+2026-03-01T00:13:12.064Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:12.064Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 44)
+2026-03-01T00:13:14.216Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:14.216Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 45)
+2026-03-01T00:13:14.332Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:14.333Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 72)
+2026-03-01T00:13:18.515Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:18.515Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 46)
+2026-03-01T00:13:23.888Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:23.889Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 46)
+2026-03-01T00:13:24.347Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:24.348Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 73)
+2026-03-01T00:13:26.915Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:26.915Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 47)
+2026-03-01T00:13:39.504Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:39.505Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 47)
+2026-03-01T00:13:41.154Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:41.155Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 48)
+2026-03-01T00:13:43.296Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:43.296Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 49)
+2026-03-01T00:13:43.506Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:43.506Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 12)
+2026-03-01T00:13:44.594Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:44.595Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 50)
+2026-03-01T00:13:49.431Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:13:49.432Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 13)
+2026-03-01T00:14:05.538Z [error]: Error finalizando subastas: auctions is not defined
+2026-03-01T00:14:10.898Z [info]: [Abuso] Registrado para 120363406853680958@g.us: mute_extendido
+2026-03-01T00:14:10.899Z [error]: [Abuso] Mute extendido para 120363406853680958@g.us (cuenta: 48)

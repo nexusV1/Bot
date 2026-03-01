@@ -1,68 +1,85 @@
 {
   "daily": [
     {
-      "mid": "d_gvapk50",
-      "id": "invite_members",
-      "target": 1,
+      "mid": "d_1772322713696_0",
+      "id": "win_duels",
+      "nombre": "Gana 2 duelos",
+      "target": 2,
       "rewards": {
-        "coins": 200,
-        "exp": 100,
-        "season": 10
-      }
+        "dinero": 1000,
+        "exp": 100
+      },
+      "createdAt": 1772322713696
     },
     {
-      "mid": "d_ku4ljnj",
-      "id": "craft_any",
+      "mid": "d_1772322713696_1",
+      "id": "trade_mercado",
+      "nombre": "Realiza 1 compra en mercado",
       "target": 1,
       "rewards": {
-        "coins": 200,
-        "exp": 100,
-        "season": 10
-      }
+        "dinero": 400,
+        "exp": 40
+      },
+      "createdAt": 1772322713696
     },
     {
-      "mid": "d_em7j70d",
-      "id": "invite_members",
-      "target": 1,
+      "mid": "d_1772322713696_2",
+      "id": "craft_items",
+      "nombre": "Crea 2 items",
+      "target": 2,
       "rewards": {
-        "coins": 200,
-        "exp": 100,
-        "season": 10
-      }
+        "dinero": 600,
+        "exp": 60
+      },
+      "createdAt": 1772322713696
+    },
+    {
+      "mid": "d_1772322713696_3",
+      "id": "earn_money",
+      "nombre": "Gana $5000",
+      "target": 5000,
+      "rewards": {
+        "dinero": 300,
+        "exp": 30
+      },
+      "createdAt": 1772322713696
     }
   ],
   "weekly": [
     {
-      "mid": "w_ot05kcs",
-      "id": "win_duels",
+      "mid": "w_1772322713696_0",
+      "id": "defeat_boss_w",
+      "nombre": "Derrota 5 jefes",
       "target": 5,
       "rewards": {
-        "coins": 1500,
-        "exp": 800,
-        "season": 100
-      }
+        "dinero": 6000,
+        "exp": 600
+      },
+      "createdAt": 1772322713696
     },
     {
-      "mid": "w_xhrsydw",
-      "id": "complete_raids",
-      "target": 3,
+      "mid": "w_1772322713696_1",
+      "id": "complete_raids_w",
+      "nombre": "Completa 5 raids",
+      "target": 5,
       "rewards": {
-        "coins": 1500,
-        "exp": 800,
-        "season": 100
-      }
+        "dinero": 4500,
+        "exp": 450
+      },
+      "createdAt": 1772322713696
     },
     {
-      "mid": "w_dxuu7bk",
-      "id": "craft_any",
+      "mid": "w_1772322713696_2",
+      "id": "market_sales",
+      "nombre": "Vende 3 items en mercado",
       "target": 3,
       "rewards": {
-        "coins": 1500,
-        "exp": 800,
-        "season": 100
-      }
+        "dinero": 3000,
+        "exp": 300
+      },
+      "createdAt": 1772322713696
     }
   ],
-  "lastDailyRefresh": 1770599996427,
-  "lastWeeklyRefresh": 1770254430334
+  "lastDailyRefresh": 1772322713696,
+  "lastWeeklyRefresh": 1772322713696
 }

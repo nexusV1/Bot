@@ -1,3 +1,966 @@
 {
-  "historial": {}
+  "historial": {
+    "120363406853680958@g.us": [
+      {
+        "fecha": "2026-02-28T23:58:42.023Z",
+        "tipo": "advertencia",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-02-28T23:58:57.185Z",
+        "tipo": "advertencia",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-02-28T23:59:19.606Z",
+        "tipo": "advertencia_publica",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-02-28T23:59:37.628Z",
+        "tipo": "advertencia_publica",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-02-28T23:59:41.631Z",
+        "tipo": "mute_temporal",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-02-28T23:59:45.310Z",
+        "tipo": "mute_temporal",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:08.468Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:09.481Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:20.152Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:27.502Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:31.262Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:32.006Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:38.998Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:40.427Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:44.230Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:49.631Z",
+        "tipo": "advertencia",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:50.849Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:51.470Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:00:56.074Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:00.738Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:03.065Z",
+        "tipo": "advertencia_publica",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:06.941Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:08.561Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:10.095Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:12.058Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:12.244Z",
+        "tipo": "mute_temporal",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:13.073Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:20.251Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:23.620Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:28.740Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:30.075Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:30.812Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:01:32.020Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:18.737Z",
+        "tipo": "advertencia",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:22.937Z",
+        "tipo": "advertencia",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:32.558Z",
+        "tipo": "advertencia_publica",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:32.870Z",
+        "tipo": "advertencia",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:34.297Z",
+        "tipo": "advertencia_publica",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:38.515Z",
+        "tipo": "mute_temporal",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:44.035Z",
+        "tipo": "advertencia_publica",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:44.459Z",
+        "tipo": "mute_temporal",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:51.195Z",
+        "tipo": "advertencia",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:57.560Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:58.218Z",
+        "tipo": "mute_temporal",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:05:58.375Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:00.607Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:02.668Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:04.617Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:04.712Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:07.207Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:10.792Z",
+        "tipo": "advertencia_publica",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:12.432Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:17.103Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:17.467Z",
+        "tipo": "mute_temporal",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:17.490Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:22.229Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:23.769Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:25.701Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:26.221Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:30.722Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:41.066Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:42.477Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:42.934Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:43.942Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:45.271Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:46.313Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:52.035Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:53.561Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:06:56.222Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:09.246Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:10.569Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:11.726Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:27.761Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:28.588Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:40.466Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:41.749Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:42.445Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:51.935Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:07:55.049Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:07.225Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:10.295Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:12.930Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:30.443Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:36.139Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:39.754Z",
+        "tipo": "advertencia",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:40.459Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:45.590Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:46.825Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:51.322Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:57.468Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:08:59.625Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:01.025Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:03.227Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:04.442Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:05.864Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:10.559Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:17.373Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:27.988Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:31.585Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:37.010Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:38.291Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:39.355Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:40.896Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:45.196Z",
+        "tipo": "advertencia_publica",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:47.238Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:50.773Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:52.895Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:53.083Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:56.679Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:09:57.410Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:00.783Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:05.197Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:12.885Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:14.881Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:19.560Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:20.013Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:27.288Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:29.759Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:30.970Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:31.589Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:36.401Z",
+        "tipo": "mute_temporal",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:36.597Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:41.554Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:41.588Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:42.475Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:44.155Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:44.792Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:45.411Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:46.071Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:47.063Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:49.526Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:56.823Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:57.289Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:10:58.445Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:02.631Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:07.034Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:15.945Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:16.843Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:18.934Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:23.817Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:28.501Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:29.767Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:30.517Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:31.493Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:34.967Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:36.066Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:39.919Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:43.058Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:44.422Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:47.360Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:54.096Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:56.324Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:11:58.852Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:11.257Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:12.224Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:17.409Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:21.495Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:24.230Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:25.047Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:25.070Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:31.432Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:32.791Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:37.657Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:38.890Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:42.083Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:43.384Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:45.223Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:46.777Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:50.517Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:52.705Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:53.130Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:12:54.595Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:00.115Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:02.524Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:03.907Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:07.258Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:09.355Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:10.191Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:12.063Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:14.216Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:14.332Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:18.514Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:23.888Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:24.347Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:26.914Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:39.504Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:41.154Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:43.295Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:43.505Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:44.594Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:13:49.430Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      },
+      {
+        "fecha": "2026-03-01T00:14:10.898Z",
+        "tipo": "mute_extendido",
+        "detalle": "Flood de comandos"
+      }
+    ]
+  }
 }
